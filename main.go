@@ -85,6 +85,7 @@ func main() {
 	// Define número de argumentos Padrão: run_program nome_do_arquivo.csv valor_do_dolar_do_mês
 	// IMPORTANTE! O valor de dólar do mês de referência deve ser repassado como 3º argumento
 	if len(os.Args) < 3 {
+		fmt.Println("Ferramenta de extração dos dados da Price List do Google GCP para análise e validação.")
 		fmt.Printf("Use: %s <Nome_do_Arquivo.csv> <dolar_google>\n", os.Args[0])
 		os.Exit(0)
 	}
