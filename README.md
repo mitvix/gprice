@@ -43,7 +43,7 @@ gprice Table_Price_GCP_2025-08.csv 5,7004
 ## Pré-Requisitos
 
 * cURL https://curl.se/download.html  
-* Golang > 1.22 https://go.dev/doc/install
+* Golang > 1.24 https://go.dev/doc/install
 
 
 ## Licença e Uso
