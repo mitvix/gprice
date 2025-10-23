@@ -9,7 +9,7 @@ Este utilitário realiza o processamento de dados a partir do relatório de Cost
 
 ## Funcionamento
 
-O funcionamento é simples, este código utiliza o cURL para consultar via método POST o endereço [https://](cloud.google.com/skus) para cada linha do relatório do Cost Table, a resposta (JSON Hijacking Prevention) do script batchexecute do Google é interpretada usando regex para obter o valor unitário do preço de lista em USD por SKU. E ao final alimenta um novo arquivo .CSV com as novas colunas de validação.
+O funcionamento é simples, este código utiliza o cURL para consultar via método POST o endereço https://cloud.google.com/skus para cada linha do relatório do Cost Table, a resposta (JSON Hijacking Prevention) do script batchexecute do Google é interpretada usando regex para obter o valor unitário do preço de lista em USD por SKU. E ao final alimenta um novo arquivo .CSV com as novas colunas de validação.
 
 ## Instalação
 
@@ -42,8 +42,8 @@ gprice Table_Price_GCP_2025-08.csv 5,7004
 
 ## Pré-Requisitos
 
-* cURL [https://](curl.se/download.html)  
-* Golang > 1.22 [https://](https://go.dev/doc/install)
+* cURL https://curl.se/download.html  
+* Golang > 1.22 https://go.dev/doc/install
 
 
 ## Licença e Uso
