@@ -35,3 +35,10 @@ go run main.go arquivo_table_cost.csv valor_do_dólar
 ```
 gprice Table_Price_GCP_2025-08.csv 5,7004
 ```
+
+
+## Licença e Uso
+
+* _Este Software é distribuídos sob licença GNU GENERAL PUBLIC LICENSE Version 3 onde é permitido o uso, modificação e distribuição, mantendo o padrão de
+software livre. O autor deste software NÃO OFERECE NENHUMA GARANTIA DE USO E FUNCIONAMENTO e o seu uso deve ser feito por conta e risco sem qualquer
+responsabilidade do autor. O seu uso determina que reconhece e aceita os Termos de Uso aqui aplicados. Licensa GPL3 https://www.gnu.org/licenses/gpl-3.0.pt-br.html_
