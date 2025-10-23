@@ -9,7 +9,7 @@ Este utilitário realiza o processamento de dados a partir do relatório de Cost
 
 ## Funcionamento
 
-O funcionamento é simples, este código utiliza o cURL para consultar via método POST o endereço https://cloud.google.com/skus para cada linha do relatório do Cost Table, a resposta JSON possui um JSON Hijacking Prevention que é interpretada usando regex para obter o valor unitário do preço de lista em USD por SKU. E ao final alimenta um novo arquivo .CSV com as novas colunas de validação.
+O funcionamento é simples, este código utiliza o cURL para consultar via método POST o endereço https://cloud.google.com/skus para cada linha do relatório do Cost Table, a resposta é um bloco de dados JSON que possui um JSON Hijacking Prevention que é interpretado usando regex para obter o valor unitário do preço de lista em USD por SKU. E ao final alimenta um novo arquivo .CSV com as novas colunas de validação.
 
 ## Instalação
 
